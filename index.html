@@ -7,15 +7,40 @@
     <title>Sidebar</title>
 </head>
 <body>
-    <div class="Sidebar">
+ 
+    <i class="fa-solid fa-bars hamburgur" id="hamburgur" onclick='showsidebar()'></i>
+      
+    <div class="sidebar" id="showsidebar">
         <i class="fa-solid fa-gear setting" ></i>
-        <i class="fa-solid fa-xmark exit"></i> 
+        <i class="fa-solid fa-xmark exit" id="exit" onclick="exit()"></i> 
 
         <img src="./images/img-4.jpg" alt="" class="profile-img">
+        <h1 class="text-center">Ritiksha Ingle</h1>
+
+        <div class="items">
+            <div class="icon"><i class="fa-solid fa-envelope text"></i>&nbsp; Mail-Box</div>
+        </div>
+        <div class="items">
+            <div class="icon"><i class="fa-solid fa-comment text"></i>&nbsp; Conversation</div>
+        </div>
+        <div class="items">
+            <div class="icon"><i class="fa-solid fa-inbox"></i>&nbsp; Inbox</div>
+        </div>
+        <div class="items">
+            <div class="icon"><i class="fa-solid fa-voicemail"></i>&nbsp; Voice Mail</div>
+        </div>
+        <div class="items">
+            <div class="icon"><i class="fa-solid fa-file"></i>&nbsp; Files</div>
+        </div>
+        <div class="items">
+            <div class="icon"><i class="fa-solid fa-gift"></i>&nbsp; Gift Cards</div>
+        </div>
+        <div class="items">
+            <div class="icon"><i class="fa-solid fa-trash"></i>&nbsp; Delete</div>
+        </div>
     </div>
-
-
-
+ 
     <script src="https://kit.fontawesome.com/5e1ab05394.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
 </body>
 </html>

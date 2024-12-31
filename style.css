@@ -2,10 +2,12 @@
     padding: 0%;
     margin: 0%;
 }
-.Sidebar{
+.sidebar{
     background-color:#339966;
     height:700px;
     width: 350px;
+    box-shadow: 0px 0px 10px 5px #194d33;
+    visibility: hidden;
 }
 .setting{
     font-size: 24px;
@@ -21,6 +23,7 @@
     padding:10px 4px;
     margin:5px;
     margin-bottom: 50px;
+    cursor: pointer;
 }
 .profile-img{
     border-radius: 50%;
@@ -29,4 +32,41 @@
     object-fit: cover;
     margin-top: 70px;
     margin-left: 100px;
+}
+.text-center{
+    text-align: center;
+    margin-bottom:25px;
+}
+.icon{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.text{
+    font-size: 20px;
+}
+.items{
+    padding:10px;
+    margin: 5px;
+}
+.items:hover{
+    background-color: white;
+    border-radius: 10px;
+}
+.screen{
+}
+.heading{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+}
+.sider{
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+.hamburgur{
+    position: fixed;
+    font-size: 35px;
+    margin: 5px;
+    cursor: pointer;
 }
